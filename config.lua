@@ -4,7 +4,7 @@ local config = {
         name = "Paris DC",
         url = "http://paris.example.com/haproxy_stats;csv",
         groups = {
-            www = {name = "WWW servers", group = "www"},
+			www = {name = "WWW servers", group = "www"},
             static = {name = "Static data servers", group = "static"}
         }
     },
